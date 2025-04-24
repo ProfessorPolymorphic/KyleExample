@@ -1,0 +1,45 @@
+---
+title: "KyleExample"
+---
+
+# PROJECT TITLE
+
+## SUMMARY
+
+## DATA
+
+```{r}
+library(amt)
+library(tidyverse)
+```
+
+# CLAUDE DID THINGS
+
+```{r}
+
+# AMT Package Demonstration
+# Install and load required packages if not already installed
+if (!requireNamespace("amt", quietly = TRUE)) {
+  install.packages("amt")
+}
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+}
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+}
+
+library(amt)
+library(ggplot2)
+library(dplyr)
+
+# 1. Load example data
+data("deer")
+
+# 2. Basic data exploration
+head(deer)
+str(deer)
+
+
+
+```
